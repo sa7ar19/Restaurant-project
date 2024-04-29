@@ -1,0 +1,337 @@
+
+:root{
+    --section-margin: 50px auto 0px auto;
+    --main-color: rgb(255, 170, 0);
+}
+/* Hero section */
+header {
+    background: url('../../assets/top-view-table-full-delicious-food-composition.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+header .container{
+    background-color: rgba(0,0,0, .8);
+    width: 70%;
+    margin: 100px auto;
+    padding: 20px 5px;
+}
+header h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+header p{
+    color: #d3d2d2;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+header button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin:20px 10px 0px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header button:last-of-type{
+    background-color: #fff;
+    color: var(--main-color);
+}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+header button:last-of-type:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+/* //// Numbers Section ///// */
+.numbers{
+    background-color: #111;
+    color: var(--main-color);
+    text-align: center;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 31px 0px;
+}
+.numbers h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*//// Pride & Collection sections ////*/
+
+.pride, .collection-wraper {
+    background-color: transparent ;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: var(--section-margin);
+}
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2, .collection-wraper h2{
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    line-height: 50px;
+    margin: 30px 0;
+    color: black;
+}
+.pride p, .collection-wraper p{
+    font-size: 16px !important;
+    line-height: 28px;
+    color: #333;
+}
+.pride button, .collection-wraper button, .explore button{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 20px ;
+    margin-top: 10px;
+}
+.pride button:hover , .collection-wraper button:hover, .explore button:hover{
+    background-color: transparent;
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color);
+    transition:.3s ease;
+}
+.pride button a , .collection-wraper button a{
+    color: var(--main-color) !important;
+    text-decoration: none;
+}
+
+.collection-wraper .listt{
+    margin-bottom: .5rem ;
+}
+.collection{
+    margin-top: 25px;
+}
+.collection .col{
+    margin: 10px 10px 0px 0px;
+    position: relative;
+    padding: 0;
+}
+.collection .img1 img{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*//// Sweet Section ////*/
+.sweet-wrapper{
+    background: url('../../assets/vegetables-set-left-black-slate.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    margin:  var(--section-margin);
+    padding: 40px;
+}
+.sweet-wrapper .container{
+    width: 100%;
+    padding: 20px 5px;
+}
+.sweet-wrapper h2, .explore h2, .testimonial-wrapper h2{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.sweet-wrapper p, .explore p{
+    color: #d3d2d2;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.sweet-wrapper button{
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(101, 203, 37);
+}
+.sweet-wrapper button:hover{
+    text-decoration: underline;
+}
+/*///// Explore Section /////*/
+.explore{
+    text-align: center;
+    margin: var(--section-margin);
+}
+.explore h2{
+    color: #111;
+    margin-top: 50px;
+}
+.explore p{
+    color: #222;
+}
+.explore button{
+    color: var(--main-color);
+    font-size: 17px;
+    border-radius: 0;
+    padding: 10px;
+}
+/*//// Testimonial ////*/
+.testimonial-wrapper{
+    width: 100%;
+    margin: var(--section-margin);
+    padding: 20px;
+    text-align: center;
+    background-color: var(--main-color);
+}
+.testimonial-wrapper h2{
+    margin-top: 20px;
+    color: #111;
+}
+/*///// FAQ /////*/
+
+.faq .title{
+    margin: var(--section-margin);
+    text-align: center;
+}
+.faq h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.faq h3 span{
+    color: var(--main-color);
+    font-size: 19px;
+}
+.faq .row{
+    margin-bottom: 20px;
+}
+.faq .col {
+    margin-right: 20px;
+}
+/*//// Baking section ////*/
+.baking{
+    background: url('../../assets/top-view-table-full-delicious-food-composition.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    margin: var(--section-margin);
+}
+.baking .row{
+    background-color: #111111ae;
+    padding: 40px;
+}
+.baking h2{
+    color: #fff;
+}
+.baking button, .offers button{
+    width: 150px;
+    height: 50px;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin:10px 10px 0px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.baking button:hover , .offers button:hover{
+    background-color: #fff;
+    color: var(--main-color);
+    transition: .2s ease-in-out;
+}
+/*//// offers section ////*/
+.offers {
+    margin: var(--section-margin);
+    text-align: center;
+}
+.offers h2{
+    color: var(--main-color);
+}
+.offers form input{
+    margin-right: 10px;
+    width: 300px;
+    height: 50px;
+
+}
+/* footer */
+.footer{
+    margin: var(--section-margin);
+    background-color: var(--main-color);
+    color : #fff;
+    padding: 40px;
+    text-align: center;
+}
+.footer nav {
+    background-color: var(--main-color);
+    width: 100%;
+    height: auto;
+    max-width: 100%;    
+}
+.footer nav a {
+    font-size: 19px !important;
+    color : #fff !important;
+    text-transform: capitalize;
+}
+.footer nav a:hover{
+    color: #222 !important;
+    transition: .3s ease-in-out;
+}
+.footer .icons a{
+    margin: 5px ;
+    font-size: 25px;
+    color: #fff !important;
+}
+.footer .icons a:hover{
+    color: #222 !important;
+    transition: .3s ease-in-out;
+}
+.footer p{
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 800px){
+    header .container{
+        width: 90%;
+    }
+    .sweet-wrapper{
+        text-align: center;
+    }
+    .sweet-wrapper .container{
+        background-color: rgba(0,0,0, .8);       
+    }
+}
